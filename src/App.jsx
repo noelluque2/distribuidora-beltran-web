@@ -66,7 +66,7 @@ function Header({ open, setOpen }) {
     <header className="header">
       <div className="container header-inner">
         <a href="#inicio" className="brand">
-          <span className="brand-mark"><Icon d={ICONS.box} width={22} height={22} /></span>
+          <img src="/logo.png" alt="Distribuidora Beltrán" className="brand-mark" />
           <span className="brand-text">
             <strong>Distribuidora Beltrán</strong>
             <small>Packaging &amp; descartables</small>
