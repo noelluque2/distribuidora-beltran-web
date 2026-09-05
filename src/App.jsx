@@ -117,7 +117,7 @@ function Hero() {
           </ul>
         </div>
         <div className="hero-card" aria-hidden="true">
-          <Icon d={ICONS.box} width={72} height={72} />
+          <img src="/logo.png" alt="" className="hero-logo" />
         </div>
       </div>
     </section>

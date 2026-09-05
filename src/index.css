@@ -193,6 +193,14 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--shadow);
 }
 
+.hero-logo {
+  width: min(58%, 320px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+}
+
 /* Sections */
 .section { padding: 72px 0; }
 .section-alt { background: var(--bg-alt); }
