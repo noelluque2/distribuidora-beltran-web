@@ -309,6 +309,14 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 
+.prod-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--primary-light);
+}
+
 .prod-cat {
   font-size: 11.5px;
   font-weight: 700;

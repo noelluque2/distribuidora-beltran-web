@@ -155,7 +155,9 @@ function Nosotros() {
 function ProductoCard({ p }) {
   return (
     <div className="prod-card">
-      <div className="prod-thumb"><Icon d={ICONS.box} width={30} height={30} /></div>
+      {p.imagen_url
+        ? <img src={p.imagen_url} alt={p.nombre} className="prod-photo" loading="lazy" />
+        : <div className="prod-thumb"><Icon d={ICONS.box} width={30} height={30} /></div>}
       <div className="prod-info">
         <span className="prod-cat">{p.categoria || 'Sin categoría'}</span>
         <h4>{p.nombre}</h4>
